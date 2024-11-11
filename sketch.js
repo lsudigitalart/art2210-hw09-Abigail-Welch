@@ -11,13 +11,13 @@ function setup() {
   createCanvas(600, 500);
 
   dotSpeed = random (1, 2);
-  dot1 = new Dot(50, 250, 150, 50, dotSpeed)
+  dot1 = new Dot(50, 250, 150, 50)
 
   dotSpeed = random (1, 2);
-  dot2 = new Dot(300, 150, 150, 150, dotSpeed)
+  dot2 = new Dot(300, 150, 150, 150)
 
   dotSpeed = random (1, 2);
-  dot3 = new Dot(550, 200, 150, 100, dotSpeed)
+  dot3 = new Dot(550, 200, 150, 100)
 }
 
 function draw() {
